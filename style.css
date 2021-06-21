@@ -57,6 +57,7 @@
     background: url(../img/bg-1.jpeg) no-repeat center center/cover;
     background-position: top left;
     z-index: -1;
+    background-size: 100% 100%;
     opacity: 0.9;
 }
 
@@ -93,4 +94,42 @@
     bottom: -100px;
     cursor: pointer;
     text-align: center;
+}
+
+.services{
+    display: flex;
+    margin: 100px;
+    font-family: 'Bree Serif', serif;
+    
+}
+
+.services .box{
+    border: 2px ;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgb(235, 235, 235);
+    margin-top: 36px;
+}
+
+.services .box img{
+    height: 350px;
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+.h-secondary{
+    align-items: center;
+    justify-content: center;
+}
+
+.service-header{
+    position: relative;
+    top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bree Serif', serif;
 }
