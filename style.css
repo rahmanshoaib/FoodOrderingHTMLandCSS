@@ -1,0 +1,96 @@
+ * {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    opacity: 0.8;
+    height: 50px;
+}
+
+#logo{
+    margin: 25px 45px;
+}
+
+#logo img{
+    height: 35px;
+    margin: 5px 5px;
+    border-radius: 40px;
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    list-style: none;   
+}
+
+#navbar ul li a{
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    display: inline;
+    padding: 3px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+} 
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 500px;
+}
+
+.home::before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: url(../img/bg-1.jpeg) no-repeat center center/cover;
+    background-position: top left;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.home h1{
+    color: white;
+    padding: 20px;
+    font-size: 2.9rem;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    position: relative;
+    top: 76px;
+}
+
+.home p{
+    color: white;
+    padding: 5px;
+    font-size: 1.2rem;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    position: relative;
+    bottom: -105px;
+}
+
+.button{
+    padding: 7px 20px;
+    border: 2px  ;
+    background-color: #ff2313;
+    color: white;
+    margin: 20px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    font-family: 'Inconsolata', monospace;
+    position: relative;
+    bottom: -100px;
+    cursor: pointer;
+    text-align: center;
+}
